@@ -44,10 +44,10 @@
 
 .reveal {
   animation-name: reveal;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 
 .hide {
   animation-name: hide;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }

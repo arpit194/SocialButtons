@@ -1,35 +1,35 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import SocialButton from "./SocialButton";
 import classes from "./SocialContainer.module.css";
 
 const socials = [
   {
     name: "twitter",
-    imageUrl: "/images/twitter.webp",
+    imageUrl: "./images/twitter.webp",
     message: "This is our website: ",
     title: "Please Share",
   },
   {
     name: "linkedin",
-    imageUrl: "/images/linkedin.png",
+    imageUrl: "./images/linkedin.png",
     message: "This is our website: ",
     title: "Please Share",
   },
   {
     name: "facebook",
-    imageUrl: "/images/facebook.webp",
+    imageUrl: "./images/facebook.webp",
     message: "This is our website: ",
     title: "Please Share",
   },
   {
     name: "reddit",
-    imageUrl: "/images/reddit.png",
+    imageUrl: "./images/reddit.png",
     message: "This is our website: ",
     title: "Please Share",
   },
   {
     name: "email",
-    imageUrl: "/images/mail.png",
+    imageUrl: "./images/mail.png",
     message: "This is our website: ",
     title: "Please Share",
   },
@@ -37,8 +37,14 @@ const socials = [
 
 const SocialContainer = (props) => {
   const [isOpen, setIsOpen] = useState(false);
+  const openButton = useRef();
 
   const openSocials = () => {
+    if (isOpen) {
+      openButton.current.style.transform = "rotate(0deg)";
+    } else {
+      openButton.current.style.transform = "rotate(90deg)";
+    }
     setIsOpen(!isOpen);
   };
 
@@ -59,7 +65,11 @@ const SocialContainer = (props) => {
             details={social}
           />
         ))}
-      <div className={classes.options} onClick={openSocials}></div>
+      <div
+        ref={openButton}
+        className={classes.options}
+        onClick={openSocials}
+      ></div>
     </div>
   );
 };
