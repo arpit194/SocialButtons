@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/SocialButtons/static/css/main.e3211ae2.css",
-    "main.js": "/SocialButtons/static/js/main.47c33d38.js",
+    "main.css": "/SocialButtons/static/css/main.ea8d44bc.css",
+    "main.js": "/SocialButtons/static/js/main.cfe80dca.js",
     "static/media/share.png": "/SocialButtons/static/media/share.8bc00add4e1dc28b93c8.png",
     "index.html": "/SocialButtons/index.html",
-    "main.e3211ae2.css.map": "/SocialButtons/static/css/main.e3211ae2.css.map",
-    "main.47c33d38.js.map": "/SocialButtons/static/js/main.47c33d38.js.map"
+    "main.ea8d44bc.css.map": "/SocialButtons/static/css/main.ea8d44bc.css.map",
+    "main.cfe80dca.js.map": "/SocialButtons/static/js/main.cfe80dca.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3211ae2.css",
-    "static/js/main.47c33d38.js"
+    "static/css/main.ea8d44bc.css",
+    "static/js/main.cfe80dca.js"
   ]
 }
