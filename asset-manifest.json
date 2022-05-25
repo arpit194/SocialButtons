@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SocialButtons/static/css/main.e3211ae2.css",
+    "main.js": "/SocialButtons/static/js/main.2545b97e.js",
+    "static/media/share.png": "/SocialButtons/static/media/share.8bc00add4e1dc28b93c8.png",
+    "index.html": "/SocialButtons/index.html",
+    "main.e3211ae2.css.map": "/SocialButtons/static/css/main.e3211ae2.css.map",
+    "main.2545b97e.js.map": "/SocialButtons/static/js/main.2545b97e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3211ae2.css",
+    "static/js/main.2545b97e.js"
+  ]
+}
