@@ -3,11 +3,13 @@
     width: 0px;
     height: 0px;
     margin-bottom: 0px;
+    transform: rotate(-360deg);
   }
   to {
     width: 50px;
     height: 50px;
     margin-bottom: 5px;
+    transform: rotate(0deg);
   }
 }
 
@@ -16,11 +18,13 @@
     width: 50px;
     height: 50px;
     margin-bottom: 5px;
+    transform: rotate(0deg);
   }
   to {
     width: 0px;
     height: 0px;
     margin-bottom: 0px;
+    transform: rotate(-360deg);
   }
 }
 
@@ -31,6 +35,7 @@
   border-radius: 50px;
   margin: auto;
   margin-bottom: 5px;
+  transform: rotate(0deg);
 }
 
 .twitter {
